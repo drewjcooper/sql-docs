@@ -255,7 +255,8 @@ FROM t WITH (TABLOCK, INDEX(myindex))
 -   The hint cannot be specified for a remote data source.  
   
 -   The hint cannot be specified in combination with the FORCESEEK hint.  
-  
+
+
  HOLDLOCK  
  Is equivalent to SERIALIZABLE. For more information, see SERIALIZABLE later in this topic. HOLDLOCK applies only to the table or view for which it is specified and only for the duration of the transaction defined by the statement that it is used in. HOLDLOCK cannot be used in a SELECT statement that includes the FOR BROWSE option.  
   
